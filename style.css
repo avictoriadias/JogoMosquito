@@ -13,17 +13,6 @@ html {
     min-height:100%;
 }
 
-#imagemInicio {
-    width: 60%;
-    height: 60%;
-
-}
-
-button {
-    width: 20%;
-    height: 20%;
-}
-
 .mosquito1 {
     width: 50px;
     height: 50px;
@@ -67,3 +56,40 @@ button {
     font-weight: bold;
 }
 
+/*// Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
+    #imagemInicio {
+        width: 80%;
+        height: 60%;
+        margin-top: 100px;
+    }
+	
+}
+
+/*// Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	img#imagemInicio {
+        width: 80%;
+        height: 60%;
+        margin-top: 100px;
+    }
+	
+}
+
+/*// Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    img#imagemInicio {
+        width: 100%;
+        height: 80%;
+        margin-top: 100px;
+    }
+}
+/*// Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	
+}
+
+/*// Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+	
+}
