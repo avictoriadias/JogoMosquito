@@ -1,11 +1,27 @@
 body {
     background-image: url(Imagens/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    min-height:100%;
+    background-position: center fixed;
+    
 }
 
 html {
     cursor: url(Imagens/mata_mosca.png) 30 30, auto;
+    height:100%;
+    min-height:100%;
+}
+
+#imagemInicio {
+    width: 60%;
+    height: 60%;
+
+}
+
+button {
+    width: 20%;
+    height: 20%;
 }
 
 .mosquito1 {
@@ -50,3 +66,4 @@ html {
     font-size: 20px;
     font-weight: bold;
 }
+
